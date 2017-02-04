@@ -10,6 +10,7 @@ var dynamicContent = {
 			text : "Large archive of various brands with topnotch quality for your pleasure. Balmain - Gucci - Balmain - YSL - Dior - MMM - BBC - Fendi just dropped their various distinct Spring'17 collections with beautiful peices. Be sure to check it out !! ",
 
 			headline : "Collections vary from Summer'16 to Spring'17"
+
 		},
 
 		executives : {
