@@ -17,7 +17,7 @@
 		SubText.classList.add(this.id);
 		Heading.classList.add(this.id);
 		Pics.classList.add(this.id);
-
+		Pics.src= "images/" + this.id + ".jpg";
 		appliedClass = this.id;
 
 		SubText.firstChild.nodeValue = dynamicContent[this.id].headline;
@@ -28,7 +28,7 @@
 
 
 		[].forEach.call(theImgs, function (image) {
-			image.addEventListener('click', changeElements, false);
+			image.addEventListener('click', changeElements, true);
 		});
 })();
 
