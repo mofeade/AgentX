@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body { background: #000; color: #FFF; font-size: 16px; }
+
+h1, h2 { font-family: 'Oswald'; }
+
+section, article { position: relative; width: 635px; margin: 0 auto; border: 0; }
+
+.brand { text-align: center; margin-top: 15px; font-size: 2em; color: #be2026; width: 100%; }
+
+.image-holder {
+	display: inline-block;
+	margin: 0 auto;
+	cursor: pointer; 
+	transition: opacity 0.3s ease;
+}
+#mainNav{margin: 0 auto; text-align: center;}
+
+h3{
+	font-family: 'larabie';
+	font-size: 24px;
+	padding: 20px;
+	color: #fff;
+	background-color: rgba(224,189,40);
+	transition: all 0.15s ease-in-out;
+}
+
+h3:hover{
+	background-color: rgba(224,189,40,0.55);
+}
+section { margin-top: 15px; background-color: #000; }
+
+#home { 
+	color: #fff;
+}
+#collection { 
+
+	color: #fff;
+}
+#executives { 
+	color: #fff;
+}
+
+
+.spring { 
+	color: #be2026; 
+}
+.collection {color: #e5b839;}
+.executives {color: #069;}
+
+
+.main-copy { 
+	background-color: #000; font-size: 1.5em; }
+.main-copy h2 { 
+	text-transform: capitalize; 
+	text-align: left; 
+	padding-left: 20px; 
+	padding-top: 20px; 
+	margin: 0; 
+	order:0px; 
+}
+
+
+
+.main-copy p { 
+	color: gray; 
+	padding: 0 20px; 
+	font-size: 0.8em; 
+	line-height: 1.5em; 
+	padding-bottom: 20px; 
+}
+
+@media screen and (max-width: 600px){
+	#mainNav {
+		margin-top: 10px;
+	}
+
+	article, section {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.brand {
+		width: 35%;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+
+	body {
+		width: 100%;
+	}
+
+	img { 
+	display: block;
+	margin: 0 auto;
+	width: 90%; 
+	 }
+}
+
+
+
+@font-face {
+    font-family: larabie;
+    src: url(larabie.ttf);
+}
